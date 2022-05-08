@@ -52,12 +52,12 @@ jobs:
         with:
           repository: ${{ github.repository_owner }}/client-infra
           token: ${{ secrets.PAT }}
-          path: devpie-infra
+          path: client-infra
       - run: |
           export IMAGE=$(cat .build-version)
 
-          mv patch.sh devpie-infra/manifests
-          cd devpie-infra/manifests
+          mv patch.sh client-infra/manifests
+          cd client-infra/manifests
 
           ./patch.sh
           rm patch.sh
