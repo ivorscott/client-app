@@ -1,7 +1,5 @@
 FROM node:16.0.0-alpine as build-stage
 
-LABEL author="devpie"
-
 EXPOSE 3000
 
 WORKDIR /
