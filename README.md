@@ -1,4 +1,4 @@
-# DevPie Client Frontend
+# Client Frontend
 
 ![frontend preview](docs/images/demo.png)
 
@@ -6,17 +6,16 @@
 
 This is an experimental project for learning.
 
-Devpie Client is a business management tool for performing software development with clients. Features will include
-kanaban or agile style board management and auxiliary services like cost estimation, payments and more.
+Client is a project management tool for performing software development with clients.
 
 - [See Figma design](https://www.figma.com/file/M0FVvRZWGUPWgJlby4UPjm/Devpie-Client?node-id=237%3A16)
-- [See Frontend repository](https://github.com/devpies/devpie-client-app)
-- [See Events repository](https://github.com/devpies/devpie-client-events)
-- [See Infrastructure repository](https://github.com/devpies/devpie-client-infra)
+- [See Frontend repository](https://github.com/devpies/client-app)
+- [See Events repository](https://github.com/devpies/client-events)
+- [See Infrastructure repository](https://github.com/devpies/client-infra)
 
 ## Requirements
 
-- [DevPie Client Core](https://github.com/devpies/devpie-client-core)
+- [DevPie Client Core](https://github.com/devpies/client-core)
 - Secrets
 
 ## Environment Variables
