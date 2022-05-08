@@ -50,7 +50,7 @@ jobs:
 
       - uses: actions/checkout@v2
         with:
-          repository: ${{ github.repository_owner }}/devpie-infra
+          repository: ${{ github.repository_owner }}/client-infra
           token: ${{ secrets.PAT }}
           path: devpie-infra
       - run: |
