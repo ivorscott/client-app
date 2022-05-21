@@ -1,4 +1,4 @@
-# Client Frontend
+# [Archived] Client Frontend
 
 ![frontend preview](docs/images/demo.png)
 
